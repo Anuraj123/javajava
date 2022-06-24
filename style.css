@@ -1,0 +1,221 @@
+*{
+    font-family: "Rimouski";
+}
+body, html {
+    height: 100%;
+  }
+body{
+    background-image: url("icons/bg.jpg");
+    pointer-events: none;
+    background-position: center;
+    background-size: cover;
+    background-color: #293251;
+}
+
+#cont{
+    width: 300px;    
+    background-color: #ffa587;
+    
+    display: block;
+    margin: 0 auto;
+    background-image: none;
+    transition-duration: 2s;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+#cont2{
+    width: 300px;    
+    background-color: #ffa587;
+    opacity: 0.5;
+    pointer-events: auto;
+    transition-duration: 2s;
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+#cont2:hover 
+{
+
+    
+    background-image: url("icons/bg.jpg");
+    background-size: cover;
+    transition-duration: 2s;
+    opacity: 1;
+/* opacity: 0; */
+
+}
+
+body.parent:hover 
+{
+    transition-duration: 2s;
+    opacity: 1;
+    background-image: url("icons/image.png");
+    /* background-size: cover; */
+    /* filter: blur(1px); */
+
+/* opacity: 0; */
+
+}
+
+
+
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#cont3{
+    width: 300px;
+    height: 300px;
+    
+    background-color:#FFDBC5;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+.day p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+.time p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+.heading_text{
+    text-align: center;
+    padding-top:20px ;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.8em;
+}
+.text_design
+{
+    
+    text-align: center;
+    font-size: 0.8em;
+}
+input{
+    border-radius: 10px;
+    border-color: #FFDBC5;  
+    margin-bottom: 5px;
+    padding: 5px 15px;
+}
+input:hover{
+border-color: #2D112C;
+}
+.button_design
+{
+    text-align: center;
+    font-size: 0.8em;
+}
+button{
+    padding: 5px 25px;
+    transition-duration: 0.4s;
+    background-color: #FFDBC5;
+    border-right: 0.2px;
+    border-color: #FFDBC5;
+    color: black;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+button:hover
+{
+    transition-duration: 1s;
+    background-color: #ffa587;
+    border-color: #ffa587;
+    /* background-color: black; */
+}
+
+
+#cont2:hover ~ #cont{
+filter: blur(2px);
+opacity: 0.5;
+transition-duration: 2s;
+}
